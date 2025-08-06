@@ -298,6 +298,7 @@ padding-bottom: 120px;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 8px;
     margin-bottom: 72px;
 }
 
@@ -331,7 +332,7 @@ display: block;
 
 */
 
-.section_four_titl_lii {
+.section_four_titl_lii, p{
     row-gap: 48px;
     width: calc( (100% - 48px) / 3);
 }
@@ -386,8 +387,8 @@ display: block;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer_text {
