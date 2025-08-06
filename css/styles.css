@@ -298,7 +298,6 @@ padding-bottom: 120px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-bottom: 72px;
 }
 
 
@@ -363,6 +362,7 @@ display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 72px;
 }
 
 /* footer */
