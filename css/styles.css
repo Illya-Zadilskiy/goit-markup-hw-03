@@ -135,6 +135,7 @@ display: flex;
 .main_page {
     background-color:#2e2f42;
     height: 600px;
+    padding-bottom: 188px;
     
 }
 
@@ -151,6 +152,7 @@ display: flex;
     text-align: center;
     color: #fff;
     padding: 188px 0 0 0;
+    max-width: 496px;
 }
 
 .button {
@@ -163,9 +165,12 @@ display: flex;
     background-color: #4D5AE5;
     display: block;
     margin-top: 40px;
+    min-width: 169px;
     width: 169px;
     height: 56px;
-} 
+    border: none;
+    border-radius: 4px;
+    }
 
 .button:hover,
 .button:focus {
@@ -242,11 +247,15 @@ padding-bottom: 120px;
     background-color: #FFFFFF;
     display: flex;
     gap: 24px;
+    }
+
+.section_three_color {
+    gap: 24px;
     width: calc((100% - 72px) / 4);
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     border-top-left-radius: 0px;
-    }
+}
 
 .section_three_info {
     padding: 32px 0;
@@ -270,6 +279,7 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin: 0 0 60px 60px;
 
 }
 
@@ -294,25 +304,50 @@ padding-bottom: 120px;
 
 
 .section_four_titl_img {
+    flex-wrap: wrap;
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
+    justify-content: center;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    column-gap: 24px;
     row-gap: 48px;
+    padding: 0;
 }
 
+
+.section_four_titl_lii img {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    row-gap: 48px;
+}
+/*
+width: 360px;
+height: 420px;
+display: block;
+
+*/
+
 .section_four_titl_lii {
-    margin-bottom: 48px;
+    row-gap: 48px;
+    width: calc((100% - 48px) / 3);
+}
+
+.section_four_titl_lii_ {
+    margin-right: 0;
     margin-bottom: 0;
 }
 
 .section_four_titl_infio {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        margin-bottom: 8px;
+        width: 360px;
+        height: 120px;
 }
 
 .section_four_titl_logo {
@@ -322,7 +357,6 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 8px;
 }
 
 .section_four_titl_logo_text {
@@ -341,9 +375,8 @@ padding-bottom: 120px;
 }
 
 .footer a, p {
-    display: inline-block;
-    margin-bottom: 16px;
-}
+    
+    }
 
 .logo_studio_footer {
     font-family: "Raleway", sans-serif;
@@ -360,4 +393,5 @@ padding-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding: 16px 0;
 }
