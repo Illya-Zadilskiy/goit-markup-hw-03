@@ -302,6 +302,7 @@ padding-bottom: 120px;
 
 
 
+
 .section_four_titl_img {
     flex-wrap: wrap;
     display: flex;
@@ -332,6 +333,10 @@ display: block;
 
 .section_four_titl_lii {
     width: calc((100% - 48px) / 3);
+} 
+
+.section_four_titl_lii:last-child {
+    margin-right: 0;
 }
 
 
