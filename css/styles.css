@@ -297,7 +297,7 @@ padding-bottom: 120px;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 
@@ -331,12 +331,13 @@ display: block;
 
 .section_four_titl_lii {
     row-gap: 48px;
-    width: calc((100% - 48px) / 3);
-}
-
-.section_four_titl_lii_ {
     margin-right: 0;
     margin-bottom: 0;
+    
+}
+
+.section_four_titl_lii:first-child {
+    width: calc((100% - 48px) / 3);
 }
 
 .section_four_titl_infio {
@@ -355,6 +356,7 @@ display: block;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .section_four_titl_logo_text {
@@ -362,7 +364,6 @@ display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 72px;
 }
 
 /* footer */
