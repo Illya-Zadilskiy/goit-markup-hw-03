@@ -90,6 +90,11 @@ display: flex;
     color: #2e2f42;
 }
 
+.word_list_ {
+    display: flex;
+    gap: 40px;
+}
+
 .word_list {
     display: block;
     padding: 24px 0;
@@ -98,9 +103,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .word_list:hover,
@@ -110,7 +113,7 @@ display: flex;
 
 .logo-address {
     font-style: normal;
-    margin: auto;
+    margin-left: auto;
 }
 
 .logo-address-list {
@@ -156,7 +159,6 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding: 188px 0 0 0;
     max-width: 496px;
 }
 
@@ -212,7 +214,6 @@ padding-bottom: 120px;
 }
 .section_two_background_titl {
     width: calc( (100% - 72px)/ 4);
-    flex-basis: calc( (100% - 3 * 24px)/ 4);
 }
 .section_two_titl {
     font-weight: 500;
@@ -249,22 +250,17 @@ padding-bottom: 120px;
 }
 
 .section_three_color_ {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
     }
 
 .section_three_color {
-    gap: 24px;
     width: calc((100% - 72px) / 4);
-    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    border-top-left-radius: 0px;
 }
 
 .section_three_info {
     padding: 32px 0;
-    padding-top: 32px;
 
 }
 
@@ -284,7 +280,6 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin: 0 0 60px 60px;
 
 }
 
@@ -350,9 +345,6 @@ display: block;
     padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-        margin-bottom: 8px;
-        width: 360px;
-        height: 120px;
 }
 
 .section_four_titl_logo {
@@ -411,5 +403,5 @@ display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding: 16px 0;
+    max-width: 264px;
 }
